@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yugulama 1</title>
+</head>
+<body>
+    <h1>kampanyalar</h1>
+<form action="https://yazilimbilsim.net/ogerenciler/kontrol.php">
+   <fieldset>
+ <legend> hangi ürünlerde kampanya olmasını istersin</legend>
+ <label for="kamp1">makyaj malzemesi</label>
+ <input type="radio" name="kampanya" id="kamp1" value="makyaj"><br><br>
+
+ <label for="kamp2">cilt ürünleri </label>
+ <input type="radio" name="kampanya" id="kamp2" value="cilt"><br><br>
+
+ <label for="kamp3">parfüm ürünleri</label>
+ <input type="radio" name="kampanya" id="kamp3" value="parfüm"><br><br>
+   </fieldset>
+
+   <fieldset>
+ <legend> hangi makyaj  ürünleri terci ediyorsun</legend>
+
+ <input type="checkbox" name="urunu[]" id="urunu1"value="Alık">
+ <label for="urunu1">Alık</label><br><br>
+
+<input type="checkbox" name="urunu[]" id="urunu2"value="far">
+<label for="urunu2">far</label><br><br>
+
+<input type="checkbox" name="urunu[]" id="urunu3"value="kapatıçı">
+<label for="urunu3">kapatıçı</label><br><br>
+
+<input type="checkbox" name="urunu[]" id="urunu4"value="oje">
+<label for="urunu4">oje</label><br><br>
+   </fieldset>
+
+   <br>
+ <button type="submit">kaydet</button>
+ <button type="reset">temizle</button>
+</form>
+</body>
+</html>
